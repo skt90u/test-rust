@@ -1,15 +1,11 @@
+mod sec_2_1;
+
+use crate::sec_2_1::guess_number;
+
+// guess number
+// https://www.youtube.com/watch?v=8ojbcnfi_bk&list=PL3azK8C0kje1DUJbaOqce19j3R_-tIc4_&index=5
+
+
 fn main() {
-    let x = 5;
-
-    let x = x + 1;
-
-    {
-        let x = x * 2;
-        println!("x 在內部範圍的數值為：{x}");
-    }
-
-    let mut spaces = "   ";
-    let mut a = spaces.len() + 1;
-    a+=1;
-    println!("x 的數值為：{a}");
+    guess_number();
 }
