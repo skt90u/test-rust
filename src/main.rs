@@ -1,11 +1,19 @@
-mod sec_2_1;
+mod demo_log;
 
-use crate::sec_2_1::guess_number;
+// use crate::demo_log::dump;
 
-// guess number
-// https://www.youtube.com/watch?v=8ojbcnfi_bk&list=PL3azK8C0kje1DUJbaOqce19j3R_-tIc4_&index=5
+// mod mymod;
 
+// use crate::mymod::submod::private;
 
-fn main() {
-    guess_number();
+use rand::prelude::*;
+
+fn main()
+{
+    // dump();
+    // private();
+
+    if rand::random() {
+        println!("char: {}", rand::random::<char>());
+    }
 }

@@ -12,3 +12,7 @@ cargo watch -w src -x run
 
 Setting Up VSCode to Debug Rust
 https://www.youtube.com/watch?v=TlfGs7ExC0A
+
+## cargo reference
+https://doc.rust-lang.org/cargo/commands/cargo-add.html
+https://crates.io/
